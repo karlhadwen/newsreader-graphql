@@ -1,5 +1,9 @@
 ## Learn GraphQL, Apollo Server 2, and Black-box Testing (http://bit.ly/CognitiveSurge)
 
+Subscribe to my YouTube channel here: http://bit.ly/CognitiveSurge where I build projects like this! And don't forget, you can contribute to this project (highly encouraged!).
+
+![Preview](graphql-preview.png?raw=true)
+
 ```
 query getArticleByIdAndSource {
   articleBySource(id: "21168364", source: "hackernews") {
@@ -44,7 +48,3 @@ fragment articleFields on Article {
   source
 }
 ```
-
-Subscribe to my YouTube channel here: http://bit.ly/CognitiveSurge where I build projects like this! And don't forget, you can contribute to this project (highly encouraged!). One thing I didn't get time to do was incorporate accessibility into this application, so I'd love to see that added!
-
-![Preview](graphql-preview.png?raw=true)
