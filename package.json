@@ -1,0 +1,41 @@
+{
+  "name": "newsreader-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "jest"
+  },
+  "author": "@karlhadwen",
+  "license": "ISC",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.6.9",
+    "apollo-server": "^2.9.12",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "apollo-server-testing": "^2.9.12",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.1"
+  }
+}

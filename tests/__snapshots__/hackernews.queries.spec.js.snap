@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Queries.HackerNewsAPI] fetches an array of all the articles from the HackerNews API 1`] = `
+Object {
+  "data": Object {
+    "allArticles": Array [
+      Object {
+        "author": null,
+        "id": "hn-undefined",
+        "source": "HackerNews",
+        "time": null,
+        "title": null,
+        "url": null,
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`[Queries.HackerNewsAPI] fetches an array of articles from the HackerNews API 1`] = `
+Object {
+  "data": Object {
+    "articlesBySource": Array [
+      Object {
+        "author": "kristianp",
+        "id": "hn-21168364",
+        "source": "HackerNews",
+        "time": "1570314101",
+        "title": "How to Stress the C# Compiler",
+        "url": "https://blog.hediet.de/post/how-to-stress-the-csharp-compiler",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`[Queries.HackerNewsAPI] fetches an article from the HackerNews API 1`] = `
+Object {
+  "data": Object {
+    "articleBySource": Object {
+      "author": "kristianp",
+      "id": "hn-21168364",
+      "source": "HackerNews",
+      "time": "1570314101",
+      "title": "How to Stress the C# Compiler",
+      "url": "https://blog.hediet.de/post/how-to-stress-the-csharp-compiler",
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
